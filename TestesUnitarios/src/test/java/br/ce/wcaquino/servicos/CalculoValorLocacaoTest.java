@@ -46,7 +46,7 @@ public class CalculoValorLocacaoTest {
 	@Parameters(name="Teste {index} = {2}")
 	public static Collection<Object[]> getParametros() {
 		return Arrays.asList(new Object[][] {
-			{Arrays.asList(filme1, filme2), 11.0, "2 Filmes: SEM DESCONTO"},
+			{Arrays.asList(filme1, filme2), 8.0, "2 Filmes: SEM DESCONTO"},
 			{Arrays.asList(filme1, filme2, filme3), 11.0, "3 Filmes: 25%"},
 			{Arrays.asList(filme1, filme2, filme3, filme4), 13.0, "4 Filmes: 50%"},
 			{Arrays.asList(filme1, filme2, filme3, filme4, filme5), 14.0, "5 Filmes: 75%"},
